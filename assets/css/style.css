@@ -70,19 +70,15 @@ section {
   padding: 60px;
 }
 
-/* homepage hero */
+/* Hero Style Start */
 .hero {
-  margin: 20px;
-  font-size: 20px;
-  background-color: white;
-  color: blue;
+  background-image: url('../images/hero-bg.jpg');
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
-
-/* these two colors will override the ones above in .hero */
-.hero-secondary {
-  background-color: black;
-  color: red;
-}
+/* Hero Style End */
 
 .hero-form {
   border: 3px solid #024e76;
